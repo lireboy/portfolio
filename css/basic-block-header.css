@@ -325,7 +325,7 @@ body {
   margin: 0px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   body {
     width: 100%;
   }
