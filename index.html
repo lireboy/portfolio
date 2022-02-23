@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5 Basics</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="./javascript/parallax.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <a href="#home">Welcome</a>
+                </div>
+                <div class="nav-container">
+                    <a href="#projects">Projects</a>
+                </div>
+                <div class="nav-container">
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <div class="main-content">
+            <div class="parallax" data-parallax="scroll" data-image-src="./images/background1.jpg">
+                <div class="blur">
+                    <h2>My Portfolio</h2>
+                </div>
+            </div>
+            <div class="welcome-profile">
+                <div class="profile" id="home">
+                    <div class="image-container">
+                        <img src="./images/profilepic.jpg"/>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Timur Öz</h3>
+                        <h4> Socials:</h4>
+                        <div class="socials">
+                            <a href="https://www.instagram.com/timur_oez/">
+                                <img src="./svg/instagram.svg"/>
+                            </a>
+                            <a href="https://www.linkedin.com/in/timur-%C3%B6z-71320a222/">
+                                <img src="./svg/linkedin.svg"/>
+                            </a>
+                            <a href="https://github.com/lireboy">
+                                <img src="./svg/github.svg"/>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCCC3QklKgU7-lWphagZtdlA">
+                                <img src="./svg/youtube.svg"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome-text">
+                    <h2>Hello!</h2>
+                    <p>I'm Timur Öz from Berlin Germany. Currently im studying Media Informatics at the <a style="font-style: italic;" href="https://www.bht-berlin.de/">"Berlin University of Applied Sciences"</a>. In the following semester I'm planning to write my bachelor thesis. Currently I'm a working student at <a style="font-style: italic;" href="https://www.digitalklang.de/">"Digitalklang Creating Solutions"</a> where we offer individual software solutions for desktop, intranet, extranet, web portals and mobile apps.</p>
+                    <p>In the subsequent section you will find more info about latest projects I participated in. </p>
+                    <p>Feel free to contact me any time for more details!</p>
+                </div>
+
+            </div>
+            <div class="parallax" data-parallax="scroll" data-image-src="./images/background2.jpg">
+                <div class="blur">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+            <div id="projects" class="projects">
+                <div class="project-cards">
+                    <div class="project-img">
+                        <img src="./images/unity.png"/>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-title">
+                            <h2>Escape game</h2>
+                            <h4>2019</h4>
+                        </div>
+                        <div class="info-text">
+                            <p>As part of a university project, me and 4 other students had to create a 3D game with unity. The language is C# and we build an escape room game. Story: In order to make a oxygen generator work again, the player has to successfully solve various kinds of tasks to reach the generator and fix it. </p>
+                        </div>
+                        <div class="goto-project">
+                            <a class="play" href="https://github.com/lireboy/gamedev">
+                                <svg id="play-button" viewBox="-5 -5 70 70" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+                                        <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                            c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                            C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"/>
+                                        <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                            S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
+
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lireboy/gamedev">
+                                <p>Go to Project</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------------new card-------------- -->
+                <div class="project-cards">
+                    <div class="project-img">
+                        <img class="img-animation"src="./images/react.png"/>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-title">
+                            <h2>Gaming Client</h2>
+                            <h4>2020</h4>
+                        </div>
+                        <div class="info-text">
+                                <p>As an React-Eletron-Application, this global gaming client retrieves data from most common clients like GOG, Steam, Origin, etc. and makes them accessible in one single client. Every gamer knows how frustrating it could be to remember on what plattform a certain game was bought.  </p>                        
+                        </div>
+                        <div class="goto-project">
+                            <a class="play" href="https://github.com/lireboy/universe">
+                                <svg id="play-button" viewBox="-5 -5 70 70" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+                                        <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                            c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                            C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"/>
+                                        <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                            S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
+
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lireboy/universe">
+                                <p>Go to Project</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------new card-------------- -->
+                <div class="project-cards">
+                    <div class="project-img">
+                        <img src="./images/mongodb.png"/>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-title">
+                            <h2>Forum Website</h2>
+                            <h4>2021</h4>
+                        </div>
+                        <div class="info-text">
+                            <p>Contruction and planning of a forum website with React, REST-service and MongoDB. This project was for learning how a backend communicates with frontend. Both implemented by me. Basic executions like: login, creating/deleting users and posts, etc.  </p>
+                        </div>
+                        <div class="goto-project">
+                            <a class="play" href="">
+                                <svg id="play-button" viewBox="-5 -5 70 70" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+                                        <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                            c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                            C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"/>
+                                        <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                            S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
+
+                                </svg>
+                            </a>
+                            <a href="">
+                                <p>Go to Project</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------new card-------------- -->
+                <div class="project-cards">
+                    <div class="project-img">
+                        <img src="./images/android.png"/>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-title">
+                            <h2>GPS-Timer App</h2>
+                            <h4>2021</h4>
+                        </div>
+                        <div class="info-text">
+                            <p>An android application to automatically record the time between two pre-defined speed variables. Uses the phones build it GPS and starts the timer automatically after the start speed is exceeded.</p>
+                        </div>
+                        <div class="goto-project">
+                            <a class="play" href="https://github.com/lireboy/GPS-Timer">
+                                <svg id="play-button" viewBox="-5 -5 70 70" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+                                        <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                            c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                            C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"/>
+                                        <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                            S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
+
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lireboy/GPS-Timer">
+                                <p>Go to Project</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------new card-------------- -->
+                <div class="project-cards">
+                    <div class="project-img">
+                        <img src="./images/api.png"/>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-title">
+                            <h2>Weather App</h2>
+                            <h4>2021</h4>
+                        </div>
+                        <div class="info-text">
+                            <p>Creating a weather application based on React, Bootstrap and the use of an weather-API. First steps learning how to use API's.</p>
+                        </div>
+                        <div class="goto-project">
+                            <a class="play" href="https://github.com/lireboy/wetter-app">
+                                <svg id="play-button" viewBox="-5 -5 70 70" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+                                        <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                            c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                            C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"/>
+                                        <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                            S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
+
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lireboy/wetter-app">
+                                <p>Go to Project</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------new card-------------- -->
+                <div class="project-cards">
+                    <div class="project-img">
+                        <img src="./images/bitcoin.png"/>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-title">
+                            <h2>Crypto-Tracker-App</h2>
+                            <h4>2021</h4>
+                        </div>
+                        <div class="info-text">
+                            <p>Due to my growing interest in Cryptocurrencies I decided to improve my API skills and created an own Crypto-Tracker displaying the top ranked cryptos & extra information.</p>
+                        </div>
+                        <div class="goto-project">
+                            <a class="play" href="https://timurs-crypto.netlify.app">
+                                <svg id="play-button" viewBox="-5 -5 70 70" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+                                        <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                            c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                            C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"/>
+                                        <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                            S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
+
+                                </svg>
+                            </a>
+                            <a href="https://timurs-crypto.netlify.app">
+                                <p>Go to Project</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------new card-------------- -->
+                <div class="project-cards">
+                    <div class="project-img">
+                        <img src="./images/access.png"/>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-title">
+                            <h2>Access-Database</h2>
+                            <h4>2021</h4>
+                        </div>
+                        <div class="info-text">
+                            <p>As part of an 3 months long internship in an IT company based in berlin, I build an Access Database with basic authentication and right systems.</p>
+                        </div>
+                        <div class="goto-project">
+                            <a class="play" href="https://github.com/lireboy/Access-database">
+                                <svg id="play-button" viewBox="-5 -5 70 70" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+                                        <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                            c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                            C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"/>
+                                        <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                            S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
+
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lireboy/Access-database">
+                                <p>Go to Project</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------new card-------------- -->
+                <div class="project-cards">
+                    <div class="project-img">
+                        <img src="./images/wordpress.png"/>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-title">
+                            <h2>Wordpress</h2>
+                            <h4>2022</h4>
+                        </div>
+                        <div class="info-text">
+                            <p>As part of an 3 months long internship in an IT company based in berlin, I was responsible for the administration and restructuration of a big international "Vibration Control" companies website. Including adding new features and components.  </p>
+                        </div>
+                        <div class="goto-project">
+                            <a class="play" href="https://www.gerb.com/">
+                                <svg id="play-button" viewBox="-5 -5 70 70" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+
+                                        <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                            c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                            C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z"/>
+                                        <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                            S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
+
+                                </svg>
+                            </a>
+                            <a href="https://www.gerb.com/">
+                                <p>Go to Project</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="parallax-footer" data-parallax="scroll" data-image-src="./images/background3.jpg">
+                <div class="blur">
+                        <div class="contact-title">
+                            <h1>Contact info</h1>
+                        </div>
+                        <div class="info">
+                            <a href="mailto:s80516@bht-berlin.de?subject=Me&body=Hello Timur Öz">
+                                <img src="./svg/email-outline.svg"/>
+                            </a>
+                            <a href='mailto:s80516@bht-berlin.de?subject=Me&body=Hello Timur Öz'>
+                                <p>s80516@bht-berlin.de</p>
+                            </a>
+        
+                        </div>
+                </div>
+            </div>
+        </div>
+    </body>
+        
+    </body>
+</html>

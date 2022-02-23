@@ -1,0 +1,71 @@
+@use "color-scheme.scss";
+@use "basic-block-main.scss";
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+:root{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+body{
+    width: 70%;
+    margin: 0px;
+}
+@media (max-width:800px) {
+    body{
+        width: 100%;
+    }
+}
+header{
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: color-scheme.$header-color;
+    z-index: 1000;
+}
+nav{
+    padding: 10px;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: color-scheme.$primary-color-seethru;
+    a{
+        color: white;
+
+    }
+}
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    transition: all 150ms ease-in-out;
+}
+.nav-container:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
