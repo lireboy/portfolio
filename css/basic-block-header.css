@@ -29,6 +29,7 @@
   color: white;
   font-size: 5rem;
   animation: flicker 1.5s infinite alternate;
+  text-align: center;
 }
 
 .welcome-profile {
@@ -71,6 +72,7 @@
   padding: 0px 20px 20px 20px;
   margin-left: 10px;
   overflow: hidden;
+  font-size: inherit;
 }
 .welcome-text h2 {
   color: #fc642d;
@@ -82,6 +84,11 @@
   filter: brightness(80%);
 }
 
+@media (max-width: 400px) {
+  .welcome-text {
+    font-size: 14px;
+  }
+}
 .image-container {
   display: inherit;
   justify-content: center;
@@ -119,12 +126,12 @@
 }
 
 .socials {
-  height: auto;
+  height: 40px;
   width: 100%;
   display: flex;
   flex-flow: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   transform: scale(0.9);
 }
 
@@ -132,6 +139,7 @@
   .socials {
     flex-flow: column;
     align-items: center;
+    height: 150px;
     justify-content: space-between;
   }
 }
@@ -360,6 +368,11 @@ nav a {
   color: white;
 }
 
+@media (max-width: 450px) {
+  nav {
+    width: 100%;
+  }
+}
 .nav-container {
   display: flex;
   flex-direction: column;
