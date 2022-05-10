@@ -46,6 +46,23 @@
             
         </header>
         <div class="main-content" id="start">
+                <script>
+                    window.addEventListener('scroll', () =>{
+                        var element = document.getElementById("scroll-top");
+                        const scrolled = window.scrollY;
+                        if(Math.ceil(scrolled) >= 800){
+                            console.log("scrolled 800");                          
+                            element.style.opacity = "1.0";
+                        } else{
+                            element.style.opacity = "0";
+                        }
+                    })
+                </script>
+            <div class="back-to-top" id="scroll-top">
+                <a href="#">
+                    <img src="./svg/arrow.svg" alt="arrow up">
+                </a>
+            </div>
             <div class="parallax" data-parallax="scroll" data-image-src="./images/background1.webp" alt="background1">
                 <div class="blur">
                     <h2>My Portfolio</h2>

@@ -38,6 +38,23 @@
   }
 }
 
+.back-to-top {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  right: 100px;
+  bottom: 40px;
+  padding: 10px;
+  transition: 200ms;
+  transform: scale(2);
+}
+
+.back-to-top:hover {
+  transform: scale(2.4);
+}
+
 .welcome-profile {
   display: flex;
   flex-flow: row;
