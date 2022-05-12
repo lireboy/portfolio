@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="./javascript/parallax.min.js"></script>
+        <script src="./js/scroll-indicator.js"></script>
 
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -50,18 +51,23 @@
                     window.addEventListener('scroll', () =>{
                         var element = document.getElementById("scroll-top");
                         const scrolled = window.scrollY;
-                        if(Math.ceil(scrolled) >= 800){
-                            console.log("scrolled 800");                          
+                        if(Math.ceil(scrolled) >= 800){                         
                             element.style.opacity = "1.0";
                         } else{
                             element.style.opacity = "0";
                         }
                     })
                 </script>
+            <!-- Scroll to top button -->
             <div class="back-to-top" id="scroll-top">
                 <a href="#">
                     <img src="./svg/arrow.svg" alt="arrow up">
                 </a>
+            </div>
+            <!-- Progress bar -->
+            <div class="background-line" id="backgroundline"></div>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar"></div>
             </div>
             <div class="parallax" data-parallax="scroll" data-image-src="./images/background1.webp" alt="background1">
                 <div class="blur">
@@ -91,9 +97,10 @@
                             </a>
                         </div>
                     </div>
-                    <div class="counter">
+                    <!-- <div class="counter">
                         <h5>Visitors in total:</h5>
-                        <a target="_blank"><img class="counter-image" src="https://www.webfreecounter.com/hit.php?id=gmqdaxp&nd=6&style=71" alt="web counter"></a>                    </div>
+                        <a target="_blank"><img class="counter-image" src="https://www.webfreecounter.com/hit.php?id=gmqdaxp&nd=6&style=71" alt="web counter"></a>                    
+                    </div> -->
                     </div>
                 <div class="welcome-text">
                     <h2>Hello!</h2>

@@ -44,7 +44,7 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  right: 100px;
+  right: 7%;
   bottom: 40px;
   padding: 10px;
   transition: 200ms;
@@ -55,6 +55,11 @@
   transform: scale(2.4);
 }
 
+@media (max-width: 820px) {
+  .back-to-top img {
+    background-color: rgba(211, 211, 211, 0.6);
+  }
+}
 .welcome-profile {
   display: flex;
   flex-flow: row;

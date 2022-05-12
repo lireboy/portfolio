@@ -1,0 +1,44 @@
+/* width */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  position: fixed;
+  right: 4%;
+  top: 5%;
+  bottom: 5%;
+  height: 90%;
+  width: 20px;
+  background: transparent;
+  border-radius: 20px;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  width: 30px;
+  background: grey;
+  height: 30px;
+  margin-top: 0%;
+  border-radius: 30px;
+}
+
+.background-line {
+  position: fixed;
+  right: calc(4% + 3px);
+  top: 5%;
+  bottom: 5%;
+  height: 90%;
+  width: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+@media (max-width: 820px) {
+  .progress-container, .progress-bar, .background-line {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=scrollbar.css.map */
