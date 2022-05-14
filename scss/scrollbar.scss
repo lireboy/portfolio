@@ -6,9 +6,9 @@
 .progress-container {
   position: fixed;
   // overflow: hidden;
-  right: 4%;
   top: 5%;
   bottom: 5%;
+  right: 4%;
   height: 90%;
   width: 20px;
   background: transparent;
@@ -18,9 +18,8 @@
   /* The progress bar (scroll indicator) */
 .progress-bar {
   width: 30px;
-  background: grey;
+  background: rgb(100, 100, 100);
   height: 30px;
-    margin-top: 0%;
   border-radius: 30px;
 }
 
@@ -28,8 +27,8 @@
   position: fixed;
   // overflow: hidden;
   right: calc(4% + 3px);
-  top: 5%;
-  bottom: 5%;
+  top: calc(5% + 10px);
+  bottom: calc(5% + 15px);
   height: 90%;
   width: 5px;
   background: rgba($color: #000000, $alpha: .2);
