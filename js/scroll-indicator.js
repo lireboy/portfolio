@@ -9,5 +9,6 @@ function scrollbarFunction() {
     var scrolled = (winScroll / height) * 100;
     var newscrolled = (scrolled - (scrolled / 100 * 10));
     document.getElementById("myPoint").style.marginTop = (newscrolled + "vh");
-    document.getElementById("myBar").style.height = (newscrolled + "%");
+    var reverse = (90 - newscrolled);
+    document.getElementById("myBackgroundline").style.height = (reverse + "%");
 }

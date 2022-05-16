@@ -13,6 +13,18 @@
     height: 100vh;
     scroll-behavior: smooth;
 }
+*::selection {
+    background-color: color-scheme.$primary-color;
+
+  }
+  *::-moz-selection {
+    background-color: color-scheme.$primary-color;
+
+  }
+  *::-webkit-selection {
+    background-color: color-scheme.$primary-color;
+
+  }
 body{
     width: 70%;
     margin: 0px;

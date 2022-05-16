@@ -1,7 +1,8 @@
+// observer fade in
 const faders = document.querySelectorAll(".fade-in");
 const appearOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px -50px 0px"
+    threshold: 0,
+    rootMargin: "0px 0px -350px 0px"
 };
 
 const appearOnScroll = new IntersectionObserver(function (
@@ -19,10 +20,12 @@ faders.forEach(fader => {
     appearOnScroll.observe(fader);
 });
 
+// observer slide in
+
 const sliders = document.querySelectorAll(".slide-in");
 const slideOptions = {
     threshold: 0,
-    rootMargin: "-250px 0px -250px 0px"
+    rootMargin: "-25% 0% -25% 0%"
 };
 
 const slideOnScroll = new IntersectionObserver(function (
@@ -37,4 +40,27 @@ const slideOnScroll = new IntersectionObserver(function (
 
 sliders.forEach(slider => {
     slideOnScroll.observe(slider);
+});
+
+// new observer
+
+const pops = document.querySelectorAll(".pop-in");
+const popOptions = {
+    threshold: 0,
+    rootMargin: "0px 0px -250px 0px"
+};
+
+const popOnScroll = new IntersectionObserver(function (
+        entries,
+        popOnScroll
+    ) {
+        entries.forEach(entry => {
+            entry.target.classList.toggle("pop-appear", entry.isIntersecting)
+            if (entry.isIntersecting) popOnScroll.unobserve(entry.target)
+        });
+    },
+    popOptions);
+
+pops.forEach(pop => {
+    popOnScroll.observe(pop);
 });
