@@ -8,5 +8,6 @@ function scrollbarFunction() {
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
     var newscrolled = (scrolled - (scrolled / 100 * 10));
-    document.getElementById("myBar").style.marginTop = (newscrolled + "vh");
+    document.getElementById("myPoint").style.marginTop = (newscrolled + "vh");
+    document.getElementById("myBar").style.height = (newscrolled + "%");
 }

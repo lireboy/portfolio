@@ -8,7 +8,7 @@
   // overflow: hidden;
   top: 5%;
   bottom: 5%;
-  right: 4%;
+  left: 4%;
   height: 90%;
   width: 20px;
   background: transparent;
@@ -16,17 +16,30 @@
 }
   
   /* The progress bar (scroll indicator) */
-.progress-bar {
+.progress-point {
   width: 30px;
   background: rgb(100, 100, 100);
   height: 30px;
+  z-index: 1000;
   border-radius: 30px;
+}
+.progress-bar {
+  position: fixed;
+  left: calc(4% + 12px);
+  top: calc(5% + 10px);
+  bottom: calc(5% + 15px);
+  height: 90%;
+  width: 5px;
+  background: rgba($color: #1aad2e, $alpha: 1);
+  border-radius: 20px;
+  z-index: -1;
+
 }
 
 .background-line{
   position: fixed;
   // overflow: hidden;
-  right: calc(4% + 3px);
+  left: calc(4% + 12px);
   top: calc(5% + 10px);
   bottom: calc(5% + 15px);
   height: 90%;
