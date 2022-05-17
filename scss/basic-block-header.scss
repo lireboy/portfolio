@@ -25,11 +25,13 @@
     background-color: color-scheme.$primary-color;
 
   }
+
 body{
     width: 70%;
     margin: 0px;
+    overflow-x: hidden;
 }
-@media (max-width:820px) {
+@media screen and (max-width:820px) {
     body{
         width: 100%;
     }
@@ -63,7 +65,7 @@ nav{
 
     }
 }
-@media (max-width:450px) {
+@media screen and (max-width:450px) {
     nav{
         width: 100%;
     }
