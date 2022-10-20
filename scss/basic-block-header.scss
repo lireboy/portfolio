@@ -48,7 +48,7 @@ header{
     align-items: center;
     flex-flow: column wrap;
     background-color: color-scheme.$header-color;
-    z-index: 1000;
+    z-index: 20;
 }
 nav{
     padding: 10px;

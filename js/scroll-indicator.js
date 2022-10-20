@@ -7,8 +7,14 @@ function scrollbarFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
-    var newscrolled = (scrolled - (scrolled / 100 * 10));
-    document.getElementById("myPoint").style.marginTop = (newscrolled + "vh");
-    var reverse = (90 - newscrolled);
-    document.getElementById("myBackgroundline").style.height = (reverse + "%");
+    console.log(scrolled)
+    document.getElementById("myBar").style.width = (scrolled + "%");
+    if (scrolled <= 40){
+        document.getElementById("myBar").style.backgroundColor = 'red';
+    } else if (scrolled > 40 && scrolled <= 80){
+        document.getElementById("myBar").style.backgroundColor = 'yellow';
+    } else if (scrolled > 80 && scrolled <= 100){
+        document.getElementById("myBar").style.backgroundColor = '#00D016';
+    }
+
 }
