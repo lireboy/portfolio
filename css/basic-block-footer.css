@@ -60,7 +60,6 @@
   .back-to-top {
     transform: scale(1.5);
   }
-
   .back-to-top img {
     background-color: rgba(211, 211, 211, 0.6);
     width: 70%;
@@ -73,6 +72,7 @@
   width: 100%;
   height: 100vh;
   background-color: white;
+  z-index: 20;
 }
 
 .projects {
@@ -110,10 +110,10 @@
   font-size: inherit;
 }
 .welcome-text h2 {
-  color: #fc642d;
+  color: rgb(252, 100, 45);
 }
 .welcome-text a {
-  color: #fc642d;
+  color: rgb(252, 100, 45);
 }
 .welcome-text a:hover {
   filter: brightness(80%);
@@ -137,7 +137,7 @@
   width: 100%;
   border-radius: 70px;
   border: 3px solid;
-  border-color: #fc642d;
+  border-color: rgb(252, 100, 45);
   object-fit: cover;
 }
 
@@ -153,7 +153,7 @@
 }
 .profile-info h3 {
   margin-top: 0px;
-  color: #fc642d;
+  color: rgb(252, 100, 45);
   font-size: 3vh;
 }
 .profile-info h4 {
@@ -251,7 +251,7 @@
   border-bottom: 1px rgba(128, 128, 128, 0.2) solid;
 }
 .project-cards .project-info .info-title h2 {
-  color: #fc642d;
+  color: rgb(252, 100, 45);
 }
 @media screen and (max-width: 800px) {
   .project-cards .project-info .info-title h2 {
@@ -260,7 +260,7 @@
 }
 .project-cards .project-info .info-title h4 {
   margin-right: 10px;
-  color: #fc642d;
+  color: rgb(252, 100, 45);
 }
 .project-cards .project-info .info-text {
   height: 60%;
