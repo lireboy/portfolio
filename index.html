@@ -47,18 +47,30 @@
                 <script>
                     window.addEventListener('scroll', () =>{
                         var element = document.getElementById("scroll-top");
+                        var scroll_down = document.getElementById("scroll-down");
                         const scrolled = window.scrollY;
                         if(Math.ceil(scrolled) >= 800){                         
-                            element.style.opacity = ".6";
+                            element.style.opacity = ".8";
                         } else{
                             element.style.opacity = "0";
+                        }
+                        if(Math.ceil(scrolled) >= 400){                         
+                            scroll_down.style.opacity = "0";
+                        } else{
+                            scroll_down.style.opacity = ".8";
                         }
                     })
                 </script>
             <!-- Scroll to top button -->
             <div class="back-to-top" id="scroll-top">
                 <a href="#">
-                    <img src="./svg/arrow.svg" alt="arrow up">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M14.15 30.75 12 28.6 24 16.6 36 28.55 33.85 30.7 24 20.85Z"/></svg>
+                </a>
+            </div>
+            <!-- Scroll down button -->
+            <div class="scroll-down" id="scroll-down">
+                <a href="#home">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M14.15 30.75 12 28.6 24 16.6 36 28.55 33.85 30.7 24 20.85Z"/></svg>
                 </a>
             </div>
             <!-- Progress bar -->
