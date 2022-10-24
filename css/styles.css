@@ -614,7 +614,7 @@ a:hover {
 .slide-in {
   transform: translateX(50%);
   opacity: 0;
-  transition: all 200ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 
 .slide-in.slide-appear {
