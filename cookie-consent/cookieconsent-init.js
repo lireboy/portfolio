@@ -14,7 +14,7 @@ cc.run({
 
     // auto_language: null,                     // default: null; could also be 'browser' or 'document'
     // autorun: true,                           // default: true
-    // delay: 0,                                // default: 0
+    delay: 3000, // default: 0
     // force_consent: false,
     // hide_from_bots: false,                   // default: false
     // remove_cookie_tables: false              // default: false
