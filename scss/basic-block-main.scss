@@ -61,6 +61,12 @@
         }
     }
     
+    @media screen and (max-width:420px) {
+        .scroll-down {
+            top: 80vh;
+        }
+    }
+    
     .back-to-top {
         position: fixed;
         display: flex;
