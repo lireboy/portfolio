@@ -855,8 +855,7 @@ html.force--consent.show--consent body {
 
 #s-c-bn:after,
 #s-c-bn:before {
-    background: #2d4156;
-    background: var(--cc-btn-secondary-text);
+    background: var(--cc-btn-primary-bg) !important;
     border-radius: 1em;
     height: .6em;
     left: .82em;
