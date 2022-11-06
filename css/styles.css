@@ -40,6 +40,7 @@ h5 {
 
 .parallax {
   display: flex;
+  background-attachment: fixed;
   flex-direction: column;
   justify-content: center;
   align-items: center;
