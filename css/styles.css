@@ -316,6 +316,7 @@ h5 {
 }
 .project-cards .project-img {
   display: flex;
+  z-index: 999;
   align-items: center;
   padding: 10px;
   justify-content: center;

@@ -296,6 +296,7 @@
         height: 260px;
         .project-img {
             display: flex;
+            z-index: 999;
             align-items: center;
             padding: $padding;
             justify-content: center;
