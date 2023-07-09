@@ -22,16 +22,22 @@ export const Projects = () => {
       title: "QLEE",
       description: "Web Development",
       imgUrl: projImg1,
+      global: "https://qlee.eu/",
+      github: null
     },
     {
       title: "DAkkS",
       description: "Web Development for new features & Support",
       imgUrl: projImg2,
+      global: "https://www.dakks.de/de/home.html",
+      github: null
     },
     {
       title: "Gerb",
       description: "Web Development (CMS)",
       imgUrl: projImg3,
+      global: "https://de.gerb.com/",
+      github: null
     },
   ];
 
@@ -40,16 +46,22 @@ export const Projects = () => {
       title: "Gaming Client",
       description: "React-Eletron-Application",
       imgUrl: projImgGaming,
+      global: null,
+      github: "https://github.com/lireboy/universe"
     },
     {
       title: "Forum Website",
       description: "React, REST-service and MongoDB",
       imgUrl: projImgForum,
+      global: null,
+      github: "https://github.com/lireboy/forumPage"
     },
     {
       title: "GPS-Timer App",
       description: "Android application",
       imgUrl: projImgGPS,
+      global: null,
+      github: "https://github.com/lireboy/GPS-Timer"
     },
   ];
 
@@ -58,11 +70,15 @@ export const Projects = () => {
       title: "DIHK",
       description: "Web Development",
       imgUrl: projImgDIHK,
+      global: null,
+      github: null
     },
     {
       title: "Familienunternehmer",
       description: "Web Development",
       imgUrl: projImgFAMU,
+      global: null,
+      github: null
     },
   ];
 
