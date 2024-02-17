@@ -517,7 +517,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .links a img.github:hover{
   transform: scale(1.1);
 }
-.proj-txtx h4 {
+.proj-txtx h4, .proj-txtx h5 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;

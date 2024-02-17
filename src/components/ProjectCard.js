@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, imgAlt, global, github
       <div className="proj-imgbx">
         <img src={imgUrl} alt={imgAlt}/>
         <div className="proj-txtx">
-          <h4>{title}</h4>
+          <h5>{title}</h5>
           <span>{description}</span>
         </div>
         <div className="links">
