@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, imgAlt, global, github
       <div className="proj-imgbx">
         <img src={imgUrl} alt={imgAlt}/>
         <div className="proj-txtx">
-          <h5>{title}</h5>
+          <h3>{title}</h3>
           <span>{description}</span>
         </div>
         <div className="links">
@@ -21,7 +21,7 @@ export const ProjectCard = ({ title, description, imgUrl, imgAlt, global, github
             <a href={github} target="_blank"> <img className="github" src={githubImage} alt="github link"/></a>    
           ): ""}
           {!github && !global ? (     
-            <a>Private website</a>       
+            <div className="private">Private website</div>       
           ): ""}
         </div>
       </div>
