@@ -22,6 +22,7 @@ export const Projects = () => {
       title: "QLEE",
       description: "Web Development",
       imgUrl: projImg1,
+      imgAlt: "Qlee Logo",
       global: "https://qlee.eu/",
       github: null
     },
@@ -29,6 +30,7 @@ export const Projects = () => {
       title: "DAkkS",
       description: "Web Development for new features & Support",
       imgUrl: projImg2,
+      imgAlt: "DakkS Logo",
       global: "https://www.dakks.de/de/home.html",
       github: null
     },
@@ -36,6 +38,7 @@ export const Projects = () => {
       title: "Gerb",
       description: "Web Development (CMS)",
       imgUrl: projImg3,
+      imgAlt: "Gerb Logo",
       global: "https://de.gerb.com/",
       github: null
     },
@@ -46,6 +49,7 @@ export const Projects = () => {
       title: "Gaming Client",
       description: "React-Eletron-Application",
       imgUrl: projImgGaming,
+      imgAlt: "Gaming Logo",
       global: null,
       github: "https://github.com/lireboy/universe"
     },
@@ -53,6 +57,7 @@ export const Projects = () => {
       title: "Forum Website",
       description: "React, REST-service and MongoDB",
       imgUrl: projImgForum,
+      imgAlt: "Forum Logo",
       global: null,
       github: "https://github.com/lireboy/forumPage"
     },
@@ -60,6 +65,7 @@ export const Projects = () => {
       title: "GPS-Timer App",
       description: "Android application",
       imgUrl: projImgGPS,
+      imgAlt: "Timer Logo",
       global: null,
       github: "https://github.com/lireboy/GPS-Timer"
     },
@@ -70,6 +76,7 @@ export const Projects = () => {
       title: "DIHK",
       description: "Web Development",
       imgUrl: projImgDIHK,
+      imgAlt: "DIHK Logo",
       global: null,
       github: null
     },
@@ -77,6 +84,7 @@ export const Projects = () => {
       title: "Familienunternehmer",
       description: "Web Development",
       imgUrl: projImgFAMU,
+      imgAlt: "Familienunternehmer Logo",
       global: null,
       github: null
     },
