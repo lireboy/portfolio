@@ -4,6 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/qlee-img.jpg";
 import projImg2 from "../assets/img/dakks-img.png";
 import projImg3 from "../assets/img/gerb-img.webp";
+import projImg4 from "../assets/img/logo_repami.webp";
 import projImgGaming from "../assets/img/gaming-img.png";
 import projImgForum from "../assets/img/forum-img.jpg";
 import projImgGPS from "../assets/img/gps-img.jpg";
@@ -18,6 +19,14 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projectsProfessional = [
+    {
+      title: "Repami",
+      description: "Web Development & integrated Headless-CMS",
+      imgUrl: projImg4,
+      imgAlt: "Repami Logo",
+      global: "https://repami.de/",
+      github: null
+    },
     {
       title: "QLEE",
       description: "Web Development",
