@@ -44,6 +44,14 @@ export const Projects = () => {
       github: null
     },
     {
+      title: "DIHK",
+      description: "Web Development",
+      imgUrl: projImgDIHK,
+      imgAlt: "DIHK Logo",
+      global: null,
+      github: null
+    },
+    {
       title: "Gerb",
       description: "Web Development (CMS)",
       imgUrl: projImg3,
@@ -81,14 +89,6 @@ export const Projects = () => {
   ];
 
   const projectsUpcoming = [
-    {
-      title: "DIHK",
-      description: "Web Development",
-      imgUrl: projImgDIHK,
-      imgAlt: "DIHK Logo",
-      global: null,
-      github: null
-    },
     {
       title: "Familienunternehmer",
       description: "Web Development",
