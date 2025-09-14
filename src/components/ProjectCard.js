@@ -11,7 +11,7 @@ export const ProjectCard = ({ title, description, imgUrl, imgAlt, global, github
         <img className="img" src={imgUrl} alt={imgAlt} />
         <div className="proj-txtx">
           <h3>{title}</h3>
-          <span>{description}</span>
+          <div>{description}</div>
         </div>
         <div className="links">
           {global ? (
