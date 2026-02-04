@@ -57,8 +57,8 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm a`} <span className="txt-rotate" dataPeriod="500" data-rotate='[ "Web Developer", "Software Developer", "Lead Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm from Berlin Germany and studied Media Informatics at the "Berlin University of Applied Sciences" and got a bachelors degree. Currently I'm working as a Lead Developer at "digitalklang creating solutions" where we offer individual software solutions for desktop, intranet, extranet, web portals and mobile apps. In the subsequent section you will find more info about latest projects I participated in. Feel free to contact me any time for more details!</p>
+                  <h1>{`Hi! I'm a`} <span className="txt-rotate" dataPeriod="500" data-rotate='[ "Web Developer", "Software Developer", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I'm from Berlin Germany and studied Media Informatics at the "Berlin University of Applied Sciences" and got a bachelors degree. Currently I'm working as a Lead Developer at "Delta Controls Germany GmbH" where we offer hardware and software for building automations. In the subsequent section you will find more info about latest projects I participated in. Feel free to contact me any time for more details!</p>
                   <Nav.Link href="#connect">
                     <button className="b-button" onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                   </Nav.Link>
